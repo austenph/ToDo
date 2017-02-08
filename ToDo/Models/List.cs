@@ -14,5 +14,6 @@ namespace ToDo.Models
         public string Title { get; set; }
         DateTime Date { get; set; }
          
+      public virtual ICollection<Task> Tasks { get; set; }
     }
 }
